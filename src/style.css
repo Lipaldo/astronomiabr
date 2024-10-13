@@ -1,0 +1,119 @@
+/* Reset de margens e preenchimento */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    background-color: #0b0c10;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #1f2833;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    color: #66fcf1;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 2rem;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+    color: #66fcf1;
+}
+
+.banner {
+    background-image: url('https://via.placeholder.com/1200x600');
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.banner .content {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+}
+
+.banner h2 {
+    color: #66fcf1;
+    font-size: 3rem;
+}
+
+.galeria {
+    padding: 3rem 2rem;
+    background-color: #1f2833;
+}
+
+.galeria h2 {
+    text-align: center;
+    color: #66fcf1;
+    margin-bottom: 2rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.eventos {
+    padding: 2rem;
+    background-color: #0b0c10;
+}
+
+.eventos h2 {
+    color: #66fcf1;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#eventos-lista {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+#eventos-lista li {
+    background-color: #1f2833;
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #1f2833;
+    color: #ffffff;
+    margin-top: 2rem;
+}
